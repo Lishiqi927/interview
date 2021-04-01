@@ -76,6 +76,6 @@ public boolean equals(Object anObject) {
 
 我们可以看到对象和数组调用的equals方法都是Object类中的方法，而且Object类中的方法只有一个对比地址的逻辑，没有对比值的逻辑，所以如果我们没有重写equals方法的话，对象和数组都是用的Object类中的方法都是比较的地址，如果我们重写equalse的话才可以在equals方法中写比较值的逻辑，而String类型的equals方法本身就有比较值的逻辑，所以我们平时基本类型比较值的时候使用 == ，String类型比较值的时候使用equalse，如果要比较两个对象是否相等直接使用equalse的话比较的是两个对象的地址是否相等。
 
-总结
+**总结**
 如果大家想了解更多的有关JAVA方面的面试题与答案详解请搜索关注我的微信公众号《小奇JAVA面试》里面每天都会更新JAVA面试题，希望能够帮助到大家。
 ![image](https://user-images.githubusercontent.com/35355940/113236046-b73fcb00-92d6-11eb-8daa-b241fd8b386c.png)
